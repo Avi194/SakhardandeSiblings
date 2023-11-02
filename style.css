@@ -47,6 +47,7 @@ text-decoration: none;
     text-align: center;
     background-image:url('EvoBg.png');
     background-attachment: fixed;
+    width:100%;
     color: white;
     font-size: 40px;
     height: 2700px;
