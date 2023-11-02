@@ -1,0 +1,62 @@
+html{
+    background-image: url(infobg.png);
+    background-attachment: fixed;
+}
+.nav1{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 0px;
+    background-color: black;
+    text-align: center;
+    height: 710px;
+    width: 200px;
+    position: fixed;
+}
+.nav1 img{
+    margin: 10px;
+height: 130px;
+width: 110px;
+border-radius: 90px;
+margin-left: 40px;
+}
+.nav1 a{
+    margin-bottom: 30px;
+    margin-top: 20px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 24px;
+}
+@media only screen and (max-width: 1180px){
+    .questions h1{
+        font-size: 24px;
+    }
+    .answers h1{
+        font-size: 24px;
+    }
+}
+@media only screen and (max-width: 940px){
+    .questions h1{
+        font-size: 18px;
+    }
+    .answers h1{
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width: 790px){
+    .questions h1{
+        font-size: 12px;
+    }
+    .answers h1{
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 640px){
+    .questions h1{
+        font-size: 7px;
+    }
+    .answers h1{
+        font-size: 7px;
+    }
+}

@@ -1,0 +1,51 @@
+
+.idk h1{
+
+position: relative;
+left: 10%;
+
+
+}
+@media only screen and (max-width: 1180px) 
+  {
+    .idk h1{
+        font-size: 30px;
+    }
+  }
+  @media only screen and (max-width: 999px) 
+  {
+    .idk h1{
+        font-size: 20px;
+    }
+  }
+  @media only screen and (max-width: 999px) 
+  {
+    .idk h1{
+        font-size: 20px;
+    }
+  }
+  @media only screen and (max-width: 765px) {
+    .java h2{
+      font-size:28px;
+    }
+    .java img{
+      height: 250px;
+      width: 250px;
+    }
+  }
+  @media only screen and (max-width: 700px) {
+    .java img{
+      height: 200px;
+      width: 200px;
+    }
+    .nav1{
+      text-align:left;
+      width:119px;
+    }
+    .nav1 img{
+      margin-left: 0;
+    }
+    .idk h1{
+      font-size: 15px;
+  }
+  }
